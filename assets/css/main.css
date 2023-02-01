@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inputContainer div input{
+    width:50%;
+    border-radius: 0.5rem;
+     margin-right: 10rem;
+    border: 3px solid black;
+     background-color: #FFE5F1;
+}
+
+
+#inputContainer{
+    padding-top: 1rem;
+    padding-left: 10rem; 
+    
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 26rem;
+    
+    margin-bottom: 2rem;
+}
+
+
+#inputContainer div {
+   display: flex;
+justify-content: space-between;
+padding-bottom: 0.5rem;
+font-weight:bolder;
+color: white;
+}
+
+#inputBtn{
+    margin-top: 1.5rem;
+    padding:  0.2rem 1.5rem;
+    color: white;
+    background-color:#1F4690 ;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+#tableContainer{
+   
+    margin-left: 25rem;
+    margin-right: 20rem;
+
+    
+}
+
+#tableContainer th{
+    background-color: #16213E;
+    color: white;
+}
+
+#tableContainer td{
+    background-color: #C8B6E2;
+    font-weight: bold;
+}
+
+
+ #tableContainer th,#tableContainer td{
+    border: 5px solid black;
+    
+    padding: 0.5rem ;
+} 
+
+.parentBox{
+    height: 100rem;
+    width: 100%;
+    background-color: #00092C;
+
+}
+
+
+#inputContainer #inputBtn:hover{
+    border: 4px solid white;
+    background-color: #781D42;
+}
+
+
+
+
+
+
+
